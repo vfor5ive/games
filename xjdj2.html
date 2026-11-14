@@ -18,14 +18,26 @@
   mask-position: center;
       mask-mode: luminance
     }
-
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 560%; /* Full width (cover the whole page) */
+  height: 315%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+cursor: url(set.png),auto;}
   
 
   </style>
 </head>
 <body>
+  <div id="overlay">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LKgjOs79qKc?si=pVfp7Uw_uKMAwf5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+  </div>
 
 
 </body>
