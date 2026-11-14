@@ -12,87 +12,13 @@
       font-family: 'Unica One', sans-serif;
       overflow-y: auto;
       background-image: url('do.png');
+        mask-image: url(do.png);
+  mask-size: 100vmin;
+  mask-repeat: no-repeat;
+  mask-position: center;
     }
 
   
-
- 
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    h1 {
-
-
-      font-size: 3em;
-      margin-bottom: 1rem;
-      letter-spacing: 0.15em;
-      color: #fdaa48;
-    
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(255, 170, 72, 0.4);
-}
-
-  
-
-    .nav-icons {
-      display: flex;
-      gap: 2rem;
-      margin-top: 1rem;
-      justify-content: center;
-    
-      color: #1c0f0a;
-}
-    .nav-icons a {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-decoration: none;
-      font-size: 0.95em;
-      color: #ffc600;
-      transition: transform 0.2s ease;
-    
-      color: #1c0f0a;
-}
-    .nav-icons a:hover {
-      transform: scale(1.1);
-    }
-
-    .nav-icons img {
-      width: 100px;
-      height: 100px;
-      margin-bottom: 0.5rem;
-      filter: drop-shadow(0 0 5px #ffcb47);
-    }
-
-   
-    @media (max-width: 768px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  .nav-icons {
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-
-  .card, .card-front, .card-back {
-    width: 80px;
-    height: 110px;
-  }
-
-  .card-back {
-    font-size: 0.75em;
-  }
-}
 
   </style>
 </head>
