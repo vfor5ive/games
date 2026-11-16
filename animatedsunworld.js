@@ -10,7 +10,7 @@ function setup() {
     
 
 
-  createCanvas(400, 400);
+  createCanvas(winWidth, winHeight);
 }
 function draw() {
   //sky blue background
